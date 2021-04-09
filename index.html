@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="main.js"></script>
+    <script src="DisjointSets.js"></script>
+    <script src="Maze.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Doolhof</title>
+</head>
+<body>
+<h1 class="title">Doolhof</h1>
+<section id="content">
+    <p>Genereer een doolhof</p>
+    <form id="settingsform">
+        <div class="controls">
+            <div class="control">
+                <label for="rows">Rijen:</label>
+                <input id="rows" type="number"/>
+            </div>
+            <div class="control">
+                <label for="cols">Kolommen:</label>
+                <input id="cols" type="number"/>
+            </div>
+            <button type="button" id="generate">Genereren</button>
+
+            <div id="errormsg"></div>
+        </div>
+    </form>
+    <section id="canvassection"></section>
+    <button type="button" id="solvebtn">Oplossen</button>
+</section>
+<footer>Floris Folkertsma (s1094012)</footer>
+</body>
+</html>

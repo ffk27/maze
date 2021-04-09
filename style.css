@@ -1,0 +1,53 @@
+body {
+    margin: auto;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    border-bottom: solid 1px black;
+}
+
+#content {
+    margin: 10px;
+}
+
+#settingsform {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px 0px 5px 0px;
+}
+
+.controls {
+    margin: 10px;
+}
+
+.control {
+    margin-bottom: 10px;
+}
+
+#content label {
+    font-weight: bold;
+}
+
+#errormsg {
+    display: none;
+    margin-top: 10px;
+    color: red;
+}
+
+footer {
+    border-top: solid 1px black;
+    text-align: center;
+}
+
+#solvebtn {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        width: 1024px;
+        border: solid 1px black;
+    }
+}
